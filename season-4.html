@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Node 地下铁沙龙</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="//g.alicdn.com/tb/nodejs-club/0.0.54/bundle.css">
+</head>
+
+<body data-spy="scroll" data-target="#page-navbar" data-offset="250">
+
+  <header class="navbar navbar-fixed-top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="logo iconfont">&#xe602;</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#page-navbar" aria-controls="page-navbar" aria-expanded="false">
+                <span class="sr-only">展开导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+      </div>
+      <nav id="page-navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a class="scroll" href="#introduce" title="沙龙介绍">沙龙介绍</a>
+          </li>
+          <li>
+            <a class="scroll" href="#speaker" title="分享嘉宾">分享嘉宾</a>
+          </li>
+          <li>
+            <a class="scroll" href="#arrangement" title="活动流程">活动流程</a>
+          </li>
+          <li>
+            <a class="scroll" href="#position" title="沙龙地点">沙龙地点</a>
+          </li>
+          <li>
+            <a class="scroll" href="#history" title="往期回顾">往期回顾</a>
+          </li>
+          <li>
+            <a class="scroll" href="#partners" title="合作伙伴">合作伙伴</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container-fluid">
+    <div class="hero-content container">
+      <p class="lead">
+        Node 地下铁沙龙 #4
+      </p>
+      <h1>
+        深入实践中的 Node.js
+      </h1>
+    </div>
+  </section>
+  <section id="introduce" class="container">
+    <p>又是一年春暖花开的时节，Node地下铁迎来了第四场活动。</p>
+    <p>这次活动我们相聚在六朝古都——南京。</p>
+    <p>南京作为一个软件开发的名城，拥有庞大的企业级开发的软件产业。</p>
+    <p>而 Node.js 作为新兴的互联网开发技术，能否在企业级开发上占据一席之地呢？</p>
+    <p>我们这次邀请到几位有实战经验的专家，跟我们分享他们的想法和思路。</p>
+    <p>快来一起相约玄武湖畔吧！</p>
+    <a class="register" href="http://list.youku.com/albumlist/show?id=26523227&ascending=1&page=1" title="查看视频" target="_blank">查看视频</a>
+  </section>
+  <section id="speaker" class="container">
+    <div class="speaker-card col-md-6">
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tps/TB1tVJ9PVXXXXacXFXXXXXXXXXX-676-676.jpg_240x240.jpg" alt="淘宝元彦">
+      </div>
+      <div class="speaker-intro">
+        <a class="ppt" href="./slides/season-4/Node.js组件化UI渲染.pdf">PPT</a>
+        <p class="job">
+          元 彦 @淘宝
+        </p>
+        <p class="title">深入 Node.js 组件化的 UI 渲染</p>
+        <p class="desc" style="font-size: 15px;">本分享将介绍组件化的 UI 渲染以 React 为代表可以使 React 运行在 Node.js 进行渲染直出，解决了传统 SPA 应用的首屏性能低 与 SEO 弱两大问题，同时对比传统的模版化渲染方案，各自的利弊。</p>
+      </div>
+    </div>
+    <div class="speaker-card right-card inverse-card col-md-6">
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tps/TB16JWmPVXXXXXfXpXXXXXXXXXX-1536-1536.jpg_240x240.jpg" alt="淘宝亦才">
+      </div>
+      <div class="speaker-intro">
+        <a class="ppt" href="./slides/season-4/Java迁移Node.js实践分享.pdf">PPT</a>
+        <p class="job">
+          亦 才 @淘宝
+        </p>
+        <p class="title">Java 迁移 Node.js 实践分享</p>
+        <p class="desc">结合淘宝微海报的案例，分享 Java 迁移 Node.js 项目期间的一些经验与心得，总结一些迁移要点以及 Node.js 企业级应用开发规范。</p>
+      </div>
+    </div>
+    <div class="speaker-card inverse-card bottom-card col-md-6">
+      <div class="speaker-intro">
+        <a class="ppt" href="./slides/season-4/如何定位线上运行时错误.pdf">PPT</a>
+        <p class="job">
+          黄一君 @途牛
+        </p>
+        <p class="title" style="font-size: 14px;">如何定位线上 Node 进程的运行时错误</p>
+        <p class="desc">Node.js 单进程的模型下，健壮性虽然能由PM2等守护工具最后兜底一把，但是对于出现的阻塞很多时候都是无能为力的。分享基于 V8 引擎的底层监控实践，来定位到线上进程的异常点。</p>
+      </div>
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tps/TB1wZ5dPVXXXXcZXpXXXXXXXXXX-2212-2012.jpg_240x240.jpg" alt="途牛黄一君">
+      </div>
+    </div>
+    <div class="speaker-card right-card bottom-card col-md-6">
+      <div class="speaker-intro">
+        <a class="ppt" href="./slides/season-4/Fiber引擎.pdf">PPT</a>
+        <p class="job">
+          响马·刘琥 @第三极
+        </p>
+        <p class="title">Fib.js 和 Node.js</p>
+        <p class="desc">分享 Fib.js 是如何结合 V8 与 Fiber，解决回调地狱问题，并能够提供更强劲的并发能力。同时也会介绍如何在 Fib.js 生态上去兼容和使用 Node.js 的组件。</p>
+      </div>
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tps/TB1YVauPVXXXXXhXXXXXXXXXXXX-180-180.jpg_240x240.jpg" alt="第三极响马·刘琥">
+      </div>
+    </div>
+  </section>
+  <section id="arrangement" class="container">
+    <h1>
+      <i class="iconfont">&#xe600;</i>
+      <p>南京·2017. 03. 18</p>
+      <p>世纪缘湖滨花园酒店</p>
+    </h1>
+    <ul class="schedule">
+      <li>
+        <div class="item">
+          签 到
+          <span class="time">13:30 ~ 14:00 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          开 场
+          <span class="time">14:00 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          元 彦：深入 Node.js 组件化的 UI 渲染
+          <span class="time">14:50 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          亦 才：Java 迁移 Node.js 实践分享
+          <span class="time">14:05 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item" style="font-size: 14px;">
+          黄一君：如何定位线上 Node 进程的运行时错误
+          <span class="time">15:35 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          响 马：Fib.js 和 Node.js
+          <span class="time">16:20 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          间 休
+          <span class="time">17:05 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          辩论会
+          <span class="time">17:15 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item last">
+          结 束
+          <span class="time">18:15 PM</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section id="position" class="container-fluid">
+    <div id="mapContainer"></div>
+    <div class="map-info">
+      <h1>
+        <i class="iconfont">&#xe601;</i> 位置
+      </h1>
+      <p>
+        南京·玄武区
+        <br /> 太平门阳光路 3 号
+        <br /> 世纪缘湖滨花园酒店
+        <br />
+      </p>
+    </div>
+  </section>
+  <section id="history" class="container">
+    <h2>往期回顾</h2>
+    <ul class="history-list">
+      <li><a href="./season-1.html"><span>Node 地下铁沙龙 #1</span><span>《生产环境中的 Node.js》</span></a></li>
+      <li><a href="./season-2.html"><span>Node 地下铁沙龙 #2</span><span>《开往春天的 Node.js》</span></a></li>
+      <li><a href="./season-3.html"><span>Node 地下铁沙龙 #3</span><span>《八面玲珑的 Node.js》</span></a></li>
+    </ul>
+  </section>
+  <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=a7bb5844415139e00fad42739012f32e"></script>
+  <script src="//g.alicdn.com/tb/nodejs-club/0.0.54/bundle.js"></script>
+  <section class="footer container">
+    <div class="fed-logo iconfont">&#xe603;</div>
+    <div class="copyright">
+      <p class="rights">
+        Copyright © 2016 <a href="http://taobaofed.org/" title="Taobao FED">Taobao FED</a>. All rights reserved.
+        <script type="text/javascript">
+          var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+          document.write(unescape("%3Cspan id='cnzz_stat_icon_1257009489'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1257009489%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+      </p>
+    </div>
+  </section>
+  <div class="qrcode"></div>
+</body>
+
+</html>
